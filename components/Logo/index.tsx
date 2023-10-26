@@ -20,7 +20,7 @@ const Test = ({ className, light }: TestProps) => {
                         ? "/images/lokachee.svg"
                         : isDarkMode
                             ? "/images/lokachee.svg"
-                            : "/images/lokachee.svg"
+                            : "/images/lokachee-black.svg"
                 }
                 width={113}
                 height={25}
