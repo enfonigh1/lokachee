@@ -1,0 +1,9 @@
+
+INFO [2023-10-26T13:12:40.063Z]: opened
+INFO [2023-10-26T13:12:40.063Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics","token":"1803ee20efed77dfecbf705fb8dc4c18","mp_lib":"node","$lib_version":"0.17.0"}
+INFO [2023-10-26T14:32:23.581Z]: opened
+INFO [2023-10-26T14:32:23.581Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics","token":"1803ee20efed77dfecbf705fb8dc4c18","mp_lib":"node","$lib_version":"0.17.0"}
+INFO [2023-10-26T14:47:19.710Z]: opened
+INFO [2023-10-26T14:47:19.710Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics","token":"1803ee20efed77dfecbf705fb8dc4c18","mp_lib":"node","$lib_version":"0.17.0"}
+INFO [2023-10-26T14:52:35.391Z]: opened
+INFO [2023-10-26T14:52:35.391Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics","token":"1803ee20efed77dfecbf705fb8dc4c18","mp_lib":"node","$lib_version":"0.17.0"}
