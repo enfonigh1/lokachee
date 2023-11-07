@@ -24,7 +24,7 @@ const RegistrationPage = () => {
     return (
         <>
             <Head>
-                <title>Bruddle</title>
+                <title>Lokachee</title>
             </Head>
             <div className="relative overflow-hidden">
                 <div className="relative z-3 flex flex-col max-w-[75rem] min-h-screen mx-auto px-7.5 py-12 xls:px-20 lg:px-8 md:px-6 md:py-8">
@@ -39,8 +39,8 @@ const RegistrationPage = () => {
                                 <SignUp />
                             ) : (
                                 <SignIn
-                                    onRecover={() => setForgotPassword(true)}
-                                    onLoginQr={() => setLoginQr(true)}
+                                // onRecover={() => setForgotPassword(true)}
+                                // onLoginQr={() => setLoginQr(true)}
                                 />
                             )}
                         </div>

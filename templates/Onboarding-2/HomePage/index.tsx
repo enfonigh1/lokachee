@@ -9,12 +9,17 @@ import Field from "@/components/Field";
 import Checkbox from "@/components/Checkbox";
 import Attachments from "@/components/Details/Attachments";
 import Icon from "@/components/Icon";
+import { useRouter } from "next/router";
 
 const HomePage = () => {
     const [search, setSearch] = useState<string>("");
     // const [photographer, setPhotographer] = useState(false)
     const [agree, setAgree] = useState(false)
 
+    const router = useRouter()
+        const handleClick = () => {
+            router.push("/dashboard/social")
+        }
 
     return (
         <Layout title="Terms and Conditions" background>
@@ -32,6 +37,7 @@ const HomePage = () => {
                 disabled={agree ? false : true}
                 className="btn-purple btn-shadow w-56 lg:w-full h-14 my-10"
                 type="submit"
+                onClick={handleClick}
             >
                 Continue
             </button>

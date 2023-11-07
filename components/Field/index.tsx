@@ -16,6 +16,7 @@ type FieldProps = {
     icon?: string;
     image?: string;
     currency?: string;
+    name?: string
 };
 
 const Field = ({
@@ -31,6 +32,7 @@ const Field = ({
     icon,
     image,
     currency,
+    name
 }: FieldProps) => {
     const [visiblePassword, setVisiblePassword] = useState<boolean>(false);
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import RegistrationPage from "@/templates/RegistrationPage";
+import Loading from "../Inbox/ChatPage/Chat/Question/Loading";
 
 const items = [
     {
@@ -345,7 +346,7 @@ const items = [
 const PageListPage = () => {
     return (
         <>
-        {/* <div className="max-w-[100rem] mx-auto columns-5 px-12 py-8 2xl:columns-4 lg:columns-3 md:px-6 md:py-8 md:columns-1">
+            {/* <div className="max-w-[100rem] mx-auto columns-5 px-12 py-8 2xl:columns-4 lg:columns-3 md:px-6 md:py-8 md:columns-1">
             {items.map((item, index) => (
                 <div
                     className=" break-inside-avoid-column mb-8 last:mb-0"
@@ -368,7 +369,8 @@ const PageListPage = () => {
                 </div>
             ))}
         </div> */}
-        <RegistrationPage  />
+            
+            <RegistrationPage />
         </>
     );
 };
